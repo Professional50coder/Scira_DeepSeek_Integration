@@ -82,6 +82,12 @@ A sophisticated AI-powered conversational assistant that combines real-time sear
    # Optional: Site information for OpenRouter
    NEXT_PUBLIC_SITE_URL=http://localhost:3000
    \`\`\`
+![Screenshot 2025-07-05 224330](https://github.com/user-attachments/assets/bb2b0da3-a0c6-436a-b19d-c08354f9af82)
+![Screenshot 2025-07-05 224447](https://github.com/user-attachments/assets/8dc6f234-ec99-411b-a4bf-41c6f29c9426)
+![Screenshot 2025-07-05 224021](https://github.com/user-attachments/assets/eabc3c19-7288-4d25-85f6-129d1e6e7def)
+
+![image](https://github.com/user-attachments/assets/21d7d7df-a65e-4896-ab8f-473265129b35)
+
 
 5. **Run the development server**
    \`\`\`bash
@@ -150,6 +156,13 @@ A sophisticated AI-powered conversational assistant that combines real-time sear
 - "Brainstorm marketing ideas for a startup"
 - "Create a character for a fantasy novel"
 
+- ![full_chain_mode_flow](https://github.com/user-attachments/assets/b8399472-36e0-4e14-8db1-58273fd07779)
+-
+-
+- ![smart_mode_routing](https://github.com/user-attachments/assets/26c0b084-93b0-4840-80bc-45c4b316398c)
+
+
+
 ## 🔧 Configuration
 
 ### Processing Modes
@@ -159,6 +172,8 @@ You can customize the processing behavior by selecting different modes:
 - **Full Chain**: Maximum comprehensiveness, slower processing
 - **Smart Modes**: Optimized for specific use cases
 - **Single Model**: Fastest processing for simple queries
+
+- 
 
 ### Search Integration
 
