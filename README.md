@@ -297,6 +297,8 @@ For support and questions:
 \`\`\`
 
 ```md project="AI Assistant Chain" file="ARCHITECTURE.md" type="markdown"
+
+
 # System Architecture & Design Document
 
 ## 🏗️ Architecture Overview
@@ -334,6 +336,9 @@ The AI Assistant is built as a modern web application using Next.js with a sophi
 ## 🔄 Processing Pipeline
 
 ### Full Chain Mode Flow
+![full_chain_mode_flow](https://github.com/user-attachments/assets/7429ff6d-27e1-4175-93e4-b8afafe5324b)
+
+
 
 \`\`\`mermaid
 graph TD
@@ -356,6 +361,9 @@ graph TD
 \`\`\`
 
 ### Smart Mode Routing
+
+
+![smart_mode_routing](https://github.com/user-attachments/assets/9ad3a161-4525-47ac-8106-2041aa4239ec)
 
 \`\`\`mermaid
 graph TD
@@ -409,6 +417,7 @@ graph TD
   - Mode selection interfaces
 
 ### Backend Architecture
+![image](https://github.com/user-attachments/assets/e8d74de1-a78e-4802-8e63-9b9a5adc0762)
 
 #### 1. API Route Handler (\`app/api/chain/route.ts\`)
 - **Responsibility**: Central processing logic and orchestration
@@ -653,25 +662,25 @@ interface ScalabilityMetrics {
 
 ## 🔄 Future Architecture Considerations
 
-### Planned Enhancements
+ Planned Enhancements
 
-1. **Database Integration**
+1. *Database Integration*
    - User account management
    - Conversation history persistence
    - Analytics data storage
 
-2. **Advanced AI Features**
+2. *Advanced AI Features*
    - Custom model fine-tuning
    - Multi-modal processing (images, audio)
    - Specialized domain models
 
-3. **Enterprise Features**
+3. *Enterprise Features*
    - Team collaboration
    - Admin dashboards
    - Usage analytics
    - Custom integrations
 
-4. **Performance Optimizations**
+4. *Performance Optimizations*
    - Response streaming
    - Predictive caching
    - Edge computing expansion
@@ -679,8 +688,8 @@ interface ScalabilityMetrics {
 
 ### Technical Debt Management
 
-- **Code Quality**: Regular refactoring cycles
-- **Dependency Updates**: Automated security updates
-- **Performance Monitoring**: Continuous optimization
-- **Architecture Reviews**: Quarterly design reviews
+- *Code Quality*: Regular refactoring cycles
+- *Dependency Updates*: Automated security updates
+- *Performance Monitoring*: Continuous optimization
+- *Architecture Reviews*: Quarterly design reviews
 
